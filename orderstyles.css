@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.go-back {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.go-back .back-icon {
+  width: 40px;
+}
+
+.title {
+  font-size: 24px;
+  margin-left: 20;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.order-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+}
+
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.product-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.quantity-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon,
+.edit,
+.delete {
+  max-width: 20px;
+  max-height: 20px;
+  border: none;
+}
+
+.payment {
+  width: 200px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.coupon {
+  display: flex;
+  flex-direction: row;
+}
+.check-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.recommendation {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.articles {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article img {
+  width: 200px;
+}
