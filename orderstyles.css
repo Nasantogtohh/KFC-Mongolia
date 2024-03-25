@@ -12,7 +12,7 @@ body {
 
 .top {
   display: flex;
-  justify-content: space-around;
+  align-items: flex-start;
   padding: 30px;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .title {
   font-size: 24px;
-  margin-left: 20;
+  margin-left: 100;
 }
 .main {
   display: flex;
